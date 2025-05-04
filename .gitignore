@@ -27,3 +27,6 @@ __pycache__/
 # Other common ignores
 *.log
 local_settings.py
+
+# Poetry cache (usually handled by user-level config, but good to have)
+.poetry/cache/

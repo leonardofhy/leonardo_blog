@@ -1,0 +1,94 @@
+name: Deploy Pelican Site to GitHub Pages
+
+on:
+  # Runs on pushes targeting the default branch (main)
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }} # Sets the deployment URL in the GitHub environment tab
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository # Checks out your repository code
+        uses: actions/checkout@v4
+
+      - name: Set up Python # Sets up the Python environment
+        uses: actions/setup-python@v5
+        with:
+          # Choose a version compatible with 'requires-python = ">=3.9,<4.0"' in pyproject.toml
+          python-version: '3.11'
+
+      - name: Install Poetry # Installs Poetry
+        uses: snok/install-poetry@v1
+        with:
+          # Recommended: let Poetry create the virtual environment in the Actions runner
+          virtualenvs-create: true
+          # Recommended for caching: place the virtual environment within the project directory
+          virtualenvs-in-project: true
+          # Speed up installation
+          installer-parallel: true
+
+      - name: Load cached venv # Loads the cached virtual environment if available
+        id: cached-poetry-dependencies
+        uses: actions/cache@v4
+        with:
+          # Path to the directory to cache (Poetry's virtual environment)
+          path: .venv
+          # The cache key includes OS, Python version, and the hash of poetry.lock
+          key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
+
+      - name: Install dependencies # Installs dependencies using Poetry
+        # Only run full install if cache was not hit
+        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+        run: poetry install --no-interaction --no-root # --no-root as we only need dependencies to run pelican
+
+      # If the previous step used --no-root, this step ensures the pelican command is available in the poetry environment.
+      # Usually, 'poetry install' handles this, but uncomment if you encounter 'pelican not found'.
+      # - name: Install Project itself if needed
+      #   run: poetry install --no-interaction
+
+      - name: Debugging Info # Print current directory and list files before build
+        run: |
+          pwd
+          ls -al
+
+      - name: Build Pelican site # Builds the Pelican site
+        # Use 'poetry run' to execute pelican within the Poetry-managed environment
+        # Explicitly provide the relative path to content again
+        run: poetry run pelican ./content -s publishconf.py # <-- MODIFIED THIS LINE
+
+      - name: Deploy to GitHub Pages # Deploys the site to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          # Token automatically provided by GitHub Actions for authorization
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Directory containing the built website files
+          publish_dir: ./output
+          # The target branch for deployment
+          publish_branch: gh-pages
+          # Optional: Customize the commit message
+          # commit_message: Deploy from commit ${{ github.sha }}
+          # Optional: Keep the history of the gh-pages branch (default is false, forces push)
+          # keep_files: false
+          # Optional: Create a fresh branch history each time (similar effect to keep_files: false)
+          # force_orphan: true
+          # Optional: Uncomment and fill in your custom domain name if you use one
+          # cname: your_custom_domain.com
