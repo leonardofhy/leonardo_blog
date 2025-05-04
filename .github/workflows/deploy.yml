@@ -10,7 +10,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -73,7 +73,7 @@ jobs:
       - name: Build Pelican site # Builds the Pelican site
         # Use 'poetry run' to execute pelican within the Poetry-managed environment
         # Explicitly provide the relative path to content again
-        run: poetry run pelican ./content -s publishconf.py # <-- MODIFIED THIS LINE
+        run: poetry run pelican ./content -s publishconf.py
 
       - name: Deploy to GitHub Pages # Deploys the site to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
