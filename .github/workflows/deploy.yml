@@ -29,6 +29,8 @@ jobs:
     steps:
       - name: Checkout repository # Checks out your repository code
         uses: actions/checkout@v4
+        with:
+          submodules: true
 
       - name: Set up Python # Sets up the Python environment
         uses: actions/setup-python@v5
