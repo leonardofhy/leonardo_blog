@@ -1,6 +1,6 @@
 AUTHOR = 'Leonardo Foo'
 SITENAME = "Leonardo's Notes"
-SITEURL = ""
+SITEURL = 'https://leonardofhy.github.io/leonardo_blog'
 
 PATH = "content"
 
@@ -31,5 +31,6 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 10
 
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+# Whether to use relative URLs for internal links. Default is False.
+# Useful for local development, but should be False for production.
+RELATIVE_URLS = False
