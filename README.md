@@ -55,7 +55,7 @@ Write your blog post content using Markdown...
 
 ## About
 
-This is Leonardo Foo's personal blog where he shares notes and thoughts about AI and other technical topics. The blog is built using:
+This is Leonardo Foo's personal blog where he shares notes and thoughts about the AI and other technical topics. The blog is built using:
 
 - **Pelican**: Python-based static site generator
 - **Flex Theme**: Modern, responsive theme  
