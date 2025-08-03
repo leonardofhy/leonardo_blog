@@ -30,7 +30,14 @@ jobs:
       - name: Checkout repository # Checks out your repository code
         uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: recursive
+
+      - name: Ensure theme submodule is available # Handle potential submodule initialization issues
+        run: |
+          # Reset any modified submodules and ensure Flex theme is available
+          cd pelican-themes
+          git submodule foreach --recursive git reset --hard || true
+          git submodule update --init Flex || true
 
       - name: Set up Python # Sets up the Python environment
         uses: actions/setup-python@v5
