@@ -1,18 +1,16 @@
-# Python virtual environment
-venv_pelican/
-.venv/
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# Hugo build directory
+public/
+.hugo_build.lock
 
-# Pelican output directory and cache
-output/
-cache/
-.cache/
+# Static cache files
+resources/_gen/
 
-# Python cache files
+# Hugo binary (if downloaded locally)
+hugo
+hugo.exe
+*.tar.gz
+
+# Python cache files (legacy)
 __pycache__/
 *.py[cod]
 *$py.class
@@ -28,5 +26,6 @@ __pycache__/
 *.log
 local_settings.py
 
-# Poetry cache (usually handled by user-level config, but good to have)
-.poetry/cache/
+# OS generated files
+Thumbs.db
+ehthumbs.db

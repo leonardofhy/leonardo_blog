@@ -1,0 +1,13 @@
+baseURL = 'https://leonardofhy.github.io/leonardo_blog'
+languageCode = 'en'
+title = "Leonardo's Notes"
+theme = "PaperMod"
+
+[params]
+  author = "Leonardo Foo"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/leonardofhy"
