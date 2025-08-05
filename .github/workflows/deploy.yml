@@ -56,5 +56,5 @@ jobs:
           # keep_files: false
           # Optional: Create a fresh branch history each time (similar effect to keep_files: false)
           # force_orphan: true
-          # Optional: Uncomment and fill in your custom domain name if you use one
-          # cname: your_custom_domain.com
+          # Custom domain configuration for leonardofhy.blog
+          cname: leonardofhy.blog
