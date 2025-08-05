@@ -4,13 +4,19 @@ This guide helps troubleshoot common issues with GitHub Pages site accessibility
 
 ## Site Accessibility Checklist
 
-All technical components are properly configured:
+All technical components are now properly configured:
 - ✅ Hugo site builds successfully (19 pages generated)
 - ✅ CNAME file correctly configured with `leonardofhy.blog`
-- ✅ GitHub Actions deployment workflow working
+- ✅ GitHub Actions deployment workflow updated with compatible Hugo version
 - ✅ Custom domain configured in workflow
 - ✅ BaseURL set to `https://leonardofhy.blog`
 - ✅ Content and theme properly installed
+
+## Recent Fix Applied
+
+**Issue**: PaperMod theme requires Hugo v0.130.0+ but workflow was using older version
+**Solution**: Updated `.github/workflows/deploy.yml` to specify Hugo v0.134.3
+**Status**: ✅ Fixed - deployments should now succeed
 
 ## If Site Is Still Not Accessible
 
@@ -93,5 +99,5 @@ If issues persist:
 
 ---
 
-**Last Updated**: Based on repository analysis on 2025-08-05
-**Status**: All technical components verified and working correctly
+**Last Updated**: Fixed Hugo version compatibility issue on 2025-08-05
+**Status**: Hugo workflow updated to use v0.134.3 - deployments should now succeed
