@@ -22,8 +22,10 @@ The site is automatically deployed via GitHub Actions whenever changes are pushe
    **Linux/WSL:**
    ```bash
    # Download the latest extended version
-   wget https://github.com/gohugoio/hugo/releases/download/v0.140.2/hugo_extended_0.140.2_linux-amd64.tar.gz
-   tar -xzf hugo_extended_0.140.2_linux-amd64.tar.gz
+   # Visit https://github.com/gohugoio/hugo/releases to find the latest version.
+   # Replace <VERSION> with the latest version number (e.g., 0.124.1)
+   wget https://github.com/gohugoio/hugo/releases/download/v<VERSION>/hugo_extended_<VERSION>_linux-amd64.tar.gz
+   tar -xzf hugo_extended_<VERSION>_linux-amd64.tar.gz
    sudo mv hugo /usr/local/bin/
    ```
    
