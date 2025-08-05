@@ -129,6 +129,8 @@ leonardo_blog/
 ├── themes/              # Hugo themes
 │   └── PaperMod/        # Current theme (git submodule)
 ├── hugo.toml            # Site configuration
+├── verify-site.sh       # Site verification script
+├── TROUBLESHOOTING.md   # Deployment troubleshooting guide
 └── README.md            # This file
 ```
 
@@ -150,6 +152,41 @@ This site uses the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) th
 - Mobile responsive layout
 - Fast loading times
 - SEO optimized
+
+## 🔧 Site Verification & Troubleshooting
+
+### Verify Site Setup
+
+Run the verification script to check all components:
+```bash
+./verify-site.sh
+```
+
+This script validates:
+- Hugo build success
+- CNAME file configuration
+- GitHub Actions workflow setup
+- Custom domain configuration
+- Content and theme installation
+
+### Troubleshooting Deployment Issues
+
+If the site is not accessible:
+
+1. **Check GitHub Pages settings** in repository settings
+2. **Verify DNS configuration** for custom domain
+3. **Review GitHub Actions logs** for deployment errors
+4. **Use the fallback URL**: https://leonardofhy.github.io/leonardo_blog/
+5. **See detailed solutions** in `TROUBLESHOOTING.md`
+
+### Recent Accessibility Improvements
+
+Recent enhancements to ensure reliable site access:
+
+- **Enhanced SEO configuration** with site description metadata
+- **Comprehensive verification script** for deployment validation
+- **Detailed troubleshooting guide** for common GitHub Pages issues
+- **DNS and domain configuration verification**
 
 ## 📝 Tips for Content Creation
 
@@ -175,3 +212,8 @@ git submodule update --init --recursive
 ```bash
 hugo server --bind 0.0.0.0 --baseURL http://localhost:1313
 ```
+
+**Site not accessible after deployment?**
+- Run `./verify-site.sh` to check configuration
+- Check `TROUBLESHOOTING.md` for detailed solutions
+- Verify GitHub Pages settings and custom domain configuration

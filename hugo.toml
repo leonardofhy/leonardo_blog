@@ -7,6 +7,7 @@ theme = "PaperMod"
   author = "Leonardo Foo"
   defaultTheme = "auto"
   disableThemeToggle = false
+  description = "Personal blog featuring notes and thoughts on AI and technology topics"
   
   [[params.socialIcons]]
   name = "github"
