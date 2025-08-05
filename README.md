@@ -4,7 +4,7 @@ A personal blog built with [Hugo](https://gohugo.io/) and hosted on GitHub Pages
 
 ## 🌐 Site Access
 
-The blog is live at: **https://leonardofhy.github.io/leonardo_blog**
+The blog is live at: **https://leonardofhy.blog**
 
 The site is automatically deployed via GitHub Actions whenever changes are pushed to the `main` branch.
 
