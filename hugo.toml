@@ -1,4 +1,4 @@
-baseURL = 'https://leonardofhy.github.io/leonardo_blog'
+baseURL = 'https://leonardofhy.blog'
 languageCode = 'en'
 title = "Leonardo's Notes"
 theme = "PaperMod"
