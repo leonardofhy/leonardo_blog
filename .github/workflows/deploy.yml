@@ -1,4 +1,4 @@
-name: Deploy Pelican Site to GitHub Pages
+name: Deploy Hugo Site to GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch (main)
@@ -32,52 +32,14 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Ensure theme submodule is available # Handle potential submodule initialization issues
-        run: |
-          # Reset any modified submodules and ensure Flex theme is available
-          cd pelican-themes
-          git submodule foreach --recursive git reset --hard || true
-          git submodule update --init "$PELICAN_THEME" || true
-
-      - name: Set up Python # Sets up the Python environment
-        uses: actions/setup-python@v5
+      - name: Setup Hugo # Downloads and installs Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          # Choose a version compatible with 'requires-python = ">=3.9,<4.0"' in pyproject.toml
-          python-version: '3.11'
+          hugo-version: 'latest'
+          extended: true
 
-      - name: Install Poetry # Installs Poetry
-        uses: snok/install-poetry@v1
-        with:
-          # Recommended: let Poetry create the virtual environment in the Actions runner
-          virtualenvs-create: true
-          # Recommended for caching: place the virtual environment within the project directory
-          virtualenvs-in-project: true
-          # Speed up installation
-          installer-parallel: true
-
-      - name: Load cached venv # Loads the cached virtual environment if available
-        id: cached-poetry-dependencies
-        uses: actions/cache@v4
-        with:
-          # Path to the directory to cache (Poetry's virtual environment)
-          path: .venv
-          # The cache key includes OS, Python version, and the hash of poetry.lock
-          key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
-
-      - name: Install dependencies # Installs dependencies using Poetry
-        # Only run full install if cache was not hit
-        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
-        run: poetry install --no-interaction --no-root # --no-root as we only need dependencies to run pelican
-
-      # If the previous step used --no-root, this step ensures the pelican command is available in the poetry environment.
-      # Usually, 'poetry install' handles this, but uncomment if you encounter 'pelican not found'.
-      # - name: Install Project itself if needed
-      #   run: poetry install --no-interaction
-
-      - name: Build Pelican site # Builds the Pelican site
-        # Use 'poetry run' to execute pelican within the Poetry-managed environment
-        # Explicitly provide the relative path to content again
-        run: poetry run pelican ./content -s publishconf.py
+      - name: Build Hugo site # Builds the Hugo site
+        run: hugo --minify
 
       - name: Deploy to GitHub Pages # Deploys the site to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
@@ -85,7 +47,7 @@ jobs:
           # Token automatically provided by GitHub Actions for authorization
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Directory containing the built website files
-          publish_dir: ./output
+          publish_dir: ./public
           # The target branch for deployment
           publish_branch: gh-pages
           # Optional: Customize the commit message
