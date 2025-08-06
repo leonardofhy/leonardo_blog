@@ -10,66 +10,23 @@ ShowPostNavLinks: false
 ShowWordCount: false
 ---
 
-# About Me
+## Coming Soon
 
-## Introduction
+Hi! I'm Leonardo Foo, an AI Engineer and technology enthusiast.
 
-Hi, I'm Leonardo Foo, an AI Engineer and technology enthusiast passionate about artificial intelligence, software development, and emerging technologies.
+This page is currently under construction. I'm working on creating a comprehensive about section that will include:
 
-Welcome to my blog where I share insights, learnings, and thoughts on various tech topics that I encounter in my journey.
+- My background and professional journey
+- Current interests and focus areas
+- What you can expect from this blog
+- Ways to connect and collaborate
 
-## Background
+In the meantime, feel free to:
 
-### Professional Experience
-
-I work in the field of artificial intelligence and software engineering, focusing on [your specialization areas].
-
-### Interests
-
-- Artificial Intelligence & Machine Learning
-- Software Engineering & Architecture
-- Emerging Technologies
-- Open Source Development
-
-## What You'll Find Here
-
-This blog serves as my digital notebook where I document:
-
-- **Technical insights** from projects and experiments
-- **Learning notes** on new technologies and frameworks
-- **Thoughts and analysis** on industry trends
-- **Tutorial content** that might help fellow developers
-
-## Current Focus
-
-I'm currently exploring:
-
-- [Current learning area 1]
-- [Current learning area 2]
-- [Current project or research]
-
-## Beyond Technology
-
-When I'm not coding or writing about tech, I enjoy:
-
-- [Hobby 1]
-- [Hobby 2]
-- [Interest 3]
-
-## Connect With Me
-
-I'm always interested in connecting with fellow developers, researchers, and technology enthusiasts.
-
-- **LinkedIn**: [leonardo-fhy](https://www.linkedin.com/in/leonardo-fhy/)
-- **GitHub**: [leonardofhy](https://github.com/leonardofhy)
-- **Email**: [Your email address]
-
-Feel free to reach out if you want to discuss technology, collaborate on projects, or just have a chat about interesting developments in AI and software engineering!
-
-## About This Site
-
-This blog is built with [Hugo](https://gohugo.io/) using the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme and is hosted on GitHub Pages. The source code is available on [GitHub](https://github.com/leonardofhy/leonardo_blog).
+- Check out my [blog posts](/posts) for technical insights
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/leonardo-fhy/)
+- Explore my projects on [GitHub](https://github.com/leonardofhy)
 
 ---
 
-*Last updated: August 2025*
+*Page last updated: August 6, 2025*

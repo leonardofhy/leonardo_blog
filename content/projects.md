@@ -10,70 +10,39 @@ ShowPostNavLinks: false
 ShowWordCount: false
 ---
 
-# Projects
+## Coming Soon
 
-## Featured Projects
+I'm currently curating and documenting my portfolio of projects. This section will showcase:
 
-### [Project Name 1]
+### Featured Projects
+- **AI/Machine Learning Projects**: Deep learning models, data science experiments, and intelligent applications
+- **Web Applications**: Full-stack projects demonstrating modern development practices
+- **Open Source Tools**: Utilities and libraries that I've built and maintain
+- **Research Projects**: Academic or experimental work in emerging technologies
 
-**Technologies**: Python, TensorFlow, Flask, etc.
+### What You'll Find
+Each project will include:
+- **Problem Statement**: What challenge the project addresses
+- **Technical Approach**: Technologies, frameworks, and methodologies used
+- **Key Features**: Main functionality and innovations
+- **Live Demos**: Working examples where applicable
+- **Source Code**: GitHub repositories with detailed documentation
+- **Lessons Learned**: Insights gained during development
 
-Brief description of what this project does and why it's interesting. Include the problem it solves and your approach to solving it.
-
-- [GitHub Repository](https://github.com/leonardofhy/project-name)
-- [Live Demo](https://your-project-url.com) *(if applicable)*
-
----
-
-### [Project Name 2]
-
-**Technologies**: JavaScript, React, Node.js, etc.
-
-Brief description of what this project does and why it's interesting. Include the problem it solves and your approach to solving it.
-
-- [GitHub Repository](https://github.com/leonardofhy/project-name)
-- [Live Demo](https://your-project-url.com) *(if applicable)*
-
----
-
-### [Project Name 3]
-
-**Technologies**: Go, Docker, Kubernetes, etc.
-
-Brief description of what this project does and why it's interesting. Include the problem it solves and your approach to solving it.
-
-- [GitHub Repository](https://github.com/leonardofhy/project-name)
-- [Live Demo](https://your-project-url.com) *(if applicable)*
+### Project Categories
+- **Professional Work**: Enterprise-level solutions and contributions
+- **Personal Projects**: Side projects and learning experiments
+- **Open Source Contributions**: Community projects and pull requests
+- **Research & Innovation**: Cutting-edge explorations and prototypes
 
 ---
 
-## Open Source Contributions
+**In the meantime:**
 
-### [Repository Name]
-
-Brief description of your contribution to this open source project.
-
-- [Pull Request](https://github.com/owner/repo/pull/123)
+- Explore my [GitHub repositories](https://github.com/leonardofhy) for current code
+- Read my [blog posts](/posts) to understand my technical approach
+- Connect on [LinkedIn](https://www.linkedin.com/in/leonardo-fhy/) for project discussions
 
 ---
 
-### [Repository Name]
-
-Brief description of your contribution to this open source project.
-
-- [Pull Request](https://github.com/owner/repo/pull/456)
-
----
-
-## Research & Experiments
-
-### [Research Topic]
-
-Brief description of your research or experimental work in this area.
-
-- [Research Paper](https://your-paper-url.com) *(if applicable)*
-- [GitHub Repository](https://github.com/leonardofhy/research-project)
-
----
-
-*For more projects and code samples, visit my [GitHub profile](https://github.com/leonardofhy).*
+*Page last updated: August 6, 2025*

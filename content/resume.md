@@ -10,78 +10,40 @@ ShowPostNavLinks: false
 ShowWordCount: false
 ---
 
-# Leonardo Foo
+## Coming Soon
 
-**AI Engineer & Technology Enthusiast**
+I'm currently preparing a comprehensive resume that will showcase:
 
-📧 [Your Email] | 🔗 [LinkedIn](https://www.linkedin.com/in/leonardo-fhy/) | 💻 [GitHub](https://github.com/leonardofhy)
+### Professional Experience
+- Current and previous roles in AI and software engineering
+- Key achievements and contributions
+- Technologies and methodologies used
 
----
+### Technical Skills
+- Programming languages and frameworks
+- AI/ML tools and platforms
+- Cloud and infrastructure technologies
 
-## Experience
+### Education & Certifications
+- Academic background
+- Professional certifications
+- Continuous learning initiatives
 
-### [Your Current Role]
-**Company Name** | *Dates*
-- Key achievement or responsibility
-- Key achievement or responsibility
-- Key achievement or responsibility
-
-### [Previous Role]
-**Company Name** | *Dates*
-- Key achievement or responsibility
-- Key achievement or responsibility
-
----
-
-## Technical Skills
-
-### Programming Languages
-- Python, JavaScript, Go, etc.
-
-### AI/Machine Learning
-- TensorFlow, PyTorch, Scikit-learn, etc.
-
-### Cloud & Infrastructure
-- AWS, GCP, Azure, Docker, Kubernetes, etc.
-
-### Tools & Frameworks
-- Git, Linux, Hugo, etc.
+### Projects & Contributions
+- Notable projects and their impact
+- Open source contributions
+- Research and publications
 
 ---
 
-## Education
+**In the meantime:**
 
-### [Degree Name]
-**University Name** | *Graduation Year*
-- Relevant coursework or achievements
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/leonardo-fhy/) for my professional profile
+- Check out my [GitHub](https://github.com/leonardofhy) for code samples and projects
+- Browse my [blog posts](/posts) to see my technical expertise in action
 
----
-
-## Certifications
-
-- [Certification Name] - *Issuing Organization*, *Year*
-- [Certification Name] - *Issuing Organization*, *Year*
+For immediate opportunities or collaborations, feel free to reach out via LinkedIn.
 
 ---
 
-## Projects
-
-### [Project Name]
-*Brief description of the project and technologies used*
-- [GitHub Repository](https://github.com/leonardofhy/project-name) (if applicable)
-
-### [Project Name]
-*Brief description of the project and technologies used*
-- [Live Demo](https://your-project-url.com) (if applicable)
-
----
-
-## Languages
-
-- English: Fluent
-- Chinese (Traditional): Native
-- [Other Languages]: Level
-
----
-
-*For a detailed PDF version of my resume, please contact me via [LinkedIn](https://www.linkedin.com/in/leonardo-fhy/).*
+*Page last updated: August 6, 2025*
