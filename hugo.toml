@@ -1,6 +1,6 @@
 baseURL = 'https://leonardofhy.github.io/leonardo_blog'
 languageCode = 'en'
-title = "Leonardo's Notes"
+title = "Leonardo's Blog"
 theme = "PaperMod"
 
 [params]
@@ -8,6 +8,36 @@ theme = "PaperMod"
   defaultTheme = "auto"
   disableThemeToggle = false
   
+  # Homepage profile section
+  [params.profileMode]
+    enabled = true
+    title = "Leonardo Foo"
+    subtitle = "AI Engineer & Technology Enthusiast"
+    # imageUrl = "/images/profile.jpg"  # Add your profile image when available
+    # imageTitle = "Leonardo Foo"
+    # imageWidth = 150
+    # imageHeight = 150
+
+    [[params.profileMode.buttons]]
+    name = "Blog Posts"
+    url = "/posts"
+
+    [[params.profileMode.buttons]]
+    name = "Resume"
+    url = "/resume"
+
+    [[params.profileMode.buttons]]
+    name = "Projects"
+    url = "/projects"
+
+    [[params.profileMode.buttons]]
+    name = "About"
+    url = "/about"
+  
   [[params.socialIcons]]
   name = "github"
-  url = "https://leonardofhy.github.io/leonardo_blog"
+  url = "https://github.com/leonardofhy"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/leonardo-fhy/"
