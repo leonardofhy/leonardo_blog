@@ -1,1 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Leonardo's Notes</title><link>https://leonardofhy.github.io/leonardo_blog/</link><description>Recent content on Leonardo's Notes</description><generator>Hugo -- 0.148.2</generator><language>en</language><lastBuildDate>Sun, 04 May 2025 14:55:00 +0800</lastBuildDate><atom:link href="https://leonardofhy.github.io/leonardo_blog/index.xml" rel="self" type="application/rss+xml"/><item><title>我的第一篇文章</title><link>https://leonardofhy.github.io/leonardo_blog/posts/hello-world/</link><pubDate>Sun, 04 May 2025 14:55:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/posts/hello-world/</guid><description>這是我的第一篇測試文章，用來確認部落格設定是否正常運作。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Leonardo's Blog</title><link>https://leonardofhy.github.io/leonardo_blog/</link><description>Recent content on Leonardo's Blog</description><generator>Hugo -- 0.148.2</generator><language>en</language><lastBuildDate>Wed, 06 Aug 2025 10:00:00 +0800</lastBuildDate><atom:link href="https://leonardofhy.github.io/leonardo_blog/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://leonardofhy.github.io/leonardo_blog/about/</link><pubDate>Wed, 06 Aug 2025 10:00:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/about/</guid><description>&lt;h1 id="about-me">About Me&lt;/h1>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Hi, I&amp;rsquo;m Leonardo Foo, an AI Engineer and technology enthusiast passionate about artificial intelligence, software development, and emerging technologies.&lt;/p>
+&lt;p>Welcome to my blog where I share insights, learnings, and thoughts on various tech topics that I encounter in my journey.&lt;/p>
+&lt;h2 id="background">Background&lt;/h2>
+&lt;h3 id="professional-experience">Professional Experience&lt;/h3>
+&lt;p>I work in the field of artificial intelligence and software engineering, focusing on [your specialization areas].&lt;/p>
+&lt;h3 id="interests">Interests&lt;/h3>
+&lt;ul>
+&lt;li>Artificial Intelligence &amp;amp; Machine Learning&lt;/li>
+&lt;li>Software Engineering &amp;amp; Architecture&lt;/li>
+&lt;li>Emerging Technologies&lt;/li>
+&lt;li>Open Source Development&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-youll-find-here">What You&amp;rsquo;ll Find Here&lt;/h2>
+&lt;p>This blog serves as my digital notebook where I document:&lt;/p></description></item><item><title>Projects</title><link>https://leonardofhy.github.io/leonardo_blog/projects/</link><pubDate>Wed, 06 Aug 2025 10:00:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/projects/</guid><description>&lt;h1 id="projects">Projects&lt;/h1>
+&lt;h2 id="featured-projects">Featured Projects&lt;/h2>
+&lt;h3 id="project-name-1">[Project Name 1]&lt;/h3>
+&lt;p>&lt;strong>Technologies&lt;/strong>: Python, TensorFlow, Flask, etc.&lt;/p>
+&lt;p>Brief description of what this project does and why it&amp;rsquo;s interesting. Include the problem it solves and your approach to solving it.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/leonardofhy/project-name">GitHub Repository&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://your-project-url.com">Live Demo&lt;/a> &lt;em>(if applicable)&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="project-name-2">[Project Name 2]&lt;/h3>
+&lt;p>&lt;strong>Technologies&lt;/strong>: JavaScript, React, Node.js, etc.&lt;/p>
+&lt;p>Brief description of what this project does and why it&amp;rsquo;s interesting. Include the problem it solves and your approach to solving it.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/leonardofhy/project-name">GitHub Repository&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://your-project-url.com">Live Demo&lt;/a> &lt;em>(if applicable)&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="project-name-3">[Project Name 3]&lt;/h3>
+&lt;p>&lt;strong>Technologies&lt;/strong>: Go, Docker, Kubernetes, etc.&lt;/p></description></item><item><title>Resume</title><link>https://leonardofhy.github.io/leonardo_blog/resume/</link><pubDate>Wed, 06 Aug 2025 10:00:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/resume/</guid><description>&lt;h1 id="leonardo-foo">Leonardo Foo&lt;/h1>
+&lt;p>&lt;strong>AI Engineer &amp;amp; Technology Enthusiast&lt;/strong>&lt;/p>
+&lt;p>📧 [Your Email] | 🔗 &lt;a href="https://www.linkedin.com/in/leonardo-fhy/">LinkedIn&lt;/a> | 💻 &lt;a href="https://github.com/leonardofhy">GitHub&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="experience">Experience&lt;/h2>
+&lt;h3 id="your-current-role">[Your Current Role]&lt;/h3>
+&lt;p>&lt;strong>Company Name&lt;/strong> | &lt;em>Dates&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Key achievement or responsibility&lt;/li>
+&lt;li>Key achievement or responsibility&lt;/li>
+&lt;li>Key achievement or responsibility&lt;/li>
+&lt;/ul>
+&lt;h3 id="previous-role">[Previous Role]&lt;/h3>
+&lt;p>&lt;strong>Company Name&lt;/strong> | &lt;em>Dates&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Key achievement or responsibility&lt;/li>
+&lt;li>Key achievement or responsibility&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="technical-skills">Technical Skills&lt;/h2>
+&lt;h3 id="programming-languages">Programming Languages&lt;/h3>
+&lt;ul>
+&lt;li>Python, JavaScript, Go, etc.&lt;/li>
+&lt;/ul>
+&lt;h3 id="aimachine-learning">AI/Machine Learning&lt;/h3>
+&lt;ul>
+&lt;li>TensorFlow, PyTorch, Scikit-learn, etc.&lt;/li>
+&lt;/ul>
+&lt;h3 id="cloud--infrastructure">Cloud &amp;amp; Infrastructure&lt;/h3>
+&lt;ul>
+&lt;li>AWS, GCP, Azure, Docker, Kubernetes, etc.&lt;/li>
+&lt;/ul>
+&lt;h3 id="tools--frameworks">Tools &amp;amp; Frameworks&lt;/h3>
+&lt;ul>
+&lt;li>Git, Linux, Hugo, etc.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="education">Education&lt;/h2>
+&lt;h3 id="degree-name">[Degree Name]&lt;/h3>
+&lt;p>&lt;strong>University Name&lt;/strong> | &lt;em>Graduation Year&lt;/em>&lt;/p></description></item><item><title>我的第一篇文章</title><link>https://leonardofhy.github.io/leonardo_blog/posts/hello-world/</link><pubDate>Sun, 04 May 2025 14:55:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/posts/hello-world/</guid><description>這是我的第一篇測試文章，用來確認部落格設定是否正常運作。</description></item></channel></rss>
