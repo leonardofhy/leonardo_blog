@@ -1,74 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Leonardo's Blog</title><link>https://leonardofhy.github.io/leonardo_blog/</link><description>Recent content on Leonardo's Blog</description><generator>Hugo -- 0.148.2</generator><language>en</language><lastBuildDate>Wed, 06 Aug 2025 10:00:00 +0800</lastBuildDate><atom:link href="https://leonardofhy.github.io/leonardo_blog/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://leonardofhy.github.io/leonardo_blog/about/</link><pubDate>Wed, 06 Aug 2025 10:00:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/about/</guid><description>&lt;h1 id="about-me">About Me&lt;/h1>
-&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>Hi, I&amp;rsquo;m Leonardo Foo, an AI Engineer and technology enthusiast passionate about artificial intelligence, software development, and emerging technologies.&lt;/p>
-&lt;p>Welcome to my blog where I share insights, learnings, and thoughts on various tech topics that I encounter in my journey.&lt;/p>
-&lt;h2 id="background">Background&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Leonardo's Blog</title><link>https://leonardofhy.github.io/leonardo_blog/</link><description>Recent content on Leonardo's Blog</description><generator>Hugo -- 0.148.2</generator><language>en</language><lastBuildDate>Wed, 06 Aug 2025 14:00:00 +0800</lastBuildDate><atom:link href="https://leonardofhy.github.io/leonardo_blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started with Machine Learning: A Beginner's Guide</title><link>https://leonardofhy.github.io/leonardo_blog/posts/getting-started-with-machine-learning/</link><pubDate>Wed, 06 Aug 2025 14:00:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/posts/getting-started-with-machine-learning/</guid><description>An introductory guide to machine learning concepts, covering the basics of supervised learning, popular algorithms, and practical tips for beginners.</description></item><item><title>About</title><link>https://leonardofhy.github.io/leonardo_blog/about/</link><pubDate>Wed, 06 Aug 2025 10:00:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/about/</guid><description>&lt;h2 id="coming-soon">Coming Soon&lt;/h2>
+&lt;p>Hi! I&amp;rsquo;m Leonardo Foo, an AI Engineer and technology enthusiast.&lt;/p>
+&lt;p>This page is currently under construction. I&amp;rsquo;m working on creating a comprehensive about section that will include:&lt;/p>
+&lt;ul>
+&lt;li>My background and professional journey&lt;/li>
+&lt;li>Current interests and focus areas&lt;/li>
+&lt;li>What you can expect from this blog&lt;/li>
+&lt;li>Ways to connect and collaborate&lt;/li>
+&lt;/ul>
+&lt;p>In the meantime, feel free to:&lt;/p>
+&lt;ul>
+&lt;li>Check out my &lt;a href="https://leonardofhy.github.io/leonardo_blog/posts">blog posts&lt;/a> for technical insights&lt;/li>
+&lt;li>Connect with me on &lt;a href="https://www.linkedin.com/in/leonardo-fhy/">LinkedIn&lt;/a>&lt;/li>
+&lt;li>Explore my projects on &lt;a href="https://github.com/leonardofhy">GitHub&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;em>Page last updated: August 6, 2025&lt;/em>&lt;/p></description></item><item><title>Projects</title><link>https://leonardofhy.github.io/leonardo_blog/projects/</link><pubDate>Wed, 06 Aug 2025 10:00:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/projects/</guid><description>&lt;h2 id="coming-soon">Coming Soon&lt;/h2>
+&lt;p>I&amp;rsquo;m currently curating and documenting my portfolio of projects. This section will showcase:&lt;/p>
+&lt;h3 id="featured-projects">Featured Projects&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>AI/Machine Learning Projects&lt;/strong>: Deep learning models, data science experiments, and intelligent applications&lt;/li>
+&lt;li>&lt;strong>Web Applications&lt;/strong>: Full-stack projects demonstrating modern development practices&lt;/li>
+&lt;li>&lt;strong>Open Source Tools&lt;/strong>: Utilities and libraries that I&amp;rsquo;ve built and maintain&lt;/li>
+&lt;li>&lt;strong>Research Projects&lt;/strong>: Academic or experimental work in emerging technologies&lt;/li>
+&lt;/ul>
+&lt;h3 id="what-youll-find">What You&amp;rsquo;ll Find&lt;/h3>
+&lt;p>Each project will include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Problem Statement&lt;/strong>: What challenge the project addresses&lt;/li>
+&lt;li>&lt;strong>Technical Approach&lt;/strong>: Technologies, frameworks, and methodologies used&lt;/li>
+&lt;li>&lt;strong>Key Features&lt;/strong>: Main functionality and innovations&lt;/li>
+&lt;li>&lt;strong>Live Demos&lt;/strong>: Working examples where applicable&lt;/li>
+&lt;li>&lt;strong>Source Code&lt;/strong>: GitHub repositories with detailed documentation&lt;/li>
+&lt;li>&lt;strong>Lessons Learned&lt;/strong>: Insights gained during development&lt;/li>
+&lt;/ul>
+&lt;h3 id="project-categories">Project Categories&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Professional Work&lt;/strong>: Enterprise-level solutions and contributions&lt;/li>
+&lt;li>&lt;strong>Personal Projects&lt;/strong>: Side projects and learning experiments&lt;/li>
+&lt;li>&lt;strong>Open Source Contributions&lt;/strong>: Community projects and pull requests&lt;/li>
+&lt;li>&lt;strong>Research &amp;amp; Innovation&lt;/strong>: Cutting-edge explorations and prototypes&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>In the meantime:&lt;/strong>&lt;/p></description></item><item><title>Resume</title><link>https://leonardofhy.github.io/leonardo_blog/resume/</link><pubDate>Wed, 06 Aug 2025 10:00:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/resume/</guid><description>&lt;h2 id="coming-soon">Coming Soon&lt;/h2>
+&lt;p>I&amp;rsquo;m currently preparing a comprehensive resume that will showcase:&lt;/p>
 &lt;h3 id="professional-experience">Professional Experience&lt;/h3>
-&lt;p>I work in the field of artificial intelligence and software engineering, focusing on [your specialization areas].&lt;/p>
-&lt;h3 id="interests">Interests&lt;/h3>
 &lt;ul>
-&lt;li>Artificial Intelligence &amp;amp; Machine Learning&lt;/li>
-&lt;li>Software Engineering &amp;amp; Architecture&lt;/li>
-&lt;li>Emerging Technologies&lt;/li>
-&lt;li>Open Source Development&lt;/li>
+&lt;li>Current and previous roles in AI and software engineering&lt;/li>
+&lt;li>Key achievements and contributions&lt;/li>
+&lt;li>Technologies and methodologies used&lt;/li>
 &lt;/ul>
-&lt;h2 id="what-youll-find-here">What You&amp;rsquo;ll Find Here&lt;/h2>
-&lt;p>This blog serves as my digital notebook where I document:&lt;/p></description></item><item><title>Projects</title><link>https://leonardofhy.github.io/leonardo_blog/projects/</link><pubDate>Wed, 06 Aug 2025 10:00:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/projects/</guid><description>&lt;h1 id="projects">Projects&lt;/h1>
-&lt;h2 id="featured-projects">Featured Projects&lt;/h2>
-&lt;h3 id="project-name-1">[Project Name 1]&lt;/h3>
-&lt;p>&lt;strong>Technologies&lt;/strong>: Python, TensorFlow, Flask, etc.&lt;/p>
-&lt;p>Brief description of what this project does and why it&amp;rsquo;s interesting. Include the problem it solves and your approach to solving it.&lt;/p>
+&lt;h3 id="technical-skills">Technical Skills&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/leonardofhy/project-name">GitHub Repository&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://your-project-url.com">Live Demo&lt;/a> &lt;em>(if applicable)&lt;/em>&lt;/li>
+&lt;li>Programming languages and frameworks&lt;/li>
+&lt;li>AI/ML tools and platforms&lt;/li>
+&lt;li>Cloud and infrastructure technologies&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h3 id="project-name-2">[Project Name 2]&lt;/h3>
-&lt;p>&lt;strong>Technologies&lt;/strong>: JavaScript, React, Node.js, etc.&lt;/p>
-&lt;p>Brief description of what this project does and why it&amp;rsquo;s interesting. Include the problem it solves and your approach to solving it.&lt;/p>
+&lt;h3 id="education--certifications">Education &amp;amp; Certifications&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/leonardofhy/project-name">GitHub Repository&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://your-project-url.com">Live Demo&lt;/a> &lt;em>(if applicable)&lt;/em>&lt;/li>
+&lt;li>Academic background&lt;/li>
+&lt;li>Professional certifications&lt;/li>
+&lt;li>Continuous learning initiatives&lt;/li>
+&lt;/ul>
+&lt;h3 id="projects--contributions">Projects &amp;amp; Contributions&lt;/h3>
+&lt;ul>
+&lt;li>Notable projects and their impact&lt;/li>
+&lt;li>Open source contributions&lt;/li>
+&lt;li>Research and publications&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;h3 id="project-name-3">[Project Name 3]&lt;/h3>
-&lt;p>&lt;strong>Technologies&lt;/strong>: Go, Docker, Kubernetes, etc.&lt;/p></description></item><item><title>Resume</title><link>https://leonardofhy.github.io/leonardo_blog/resume/</link><pubDate>Wed, 06 Aug 2025 10:00:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/resume/</guid><description>&lt;h1 id="leonardo-foo">Leonardo Foo&lt;/h1>
-&lt;p>&lt;strong>AI Engineer &amp;amp; Technology Enthusiast&lt;/strong>&lt;/p>
-&lt;p>📧 [Your Email] | 🔗 &lt;a href="https://www.linkedin.com/in/leonardo-fhy/">LinkedIn&lt;/a> | 💻 &lt;a href="https://github.com/leonardofhy">GitHub&lt;/a>&lt;/p>
-&lt;hr>
-&lt;h2 id="experience">Experience&lt;/h2>
-&lt;h3 id="your-current-role">[Your Current Role]&lt;/h3>
-&lt;p>&lt;strong>Company Name&lt;/strong> | &lt;em>Dates&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>Key achievement or responsibility&lt;/li>
-&lt;li>Key achievement or responsibility&lt;/li>
-&lt;li>Key achievement or responsibility&lt;/li>
-&lt;/ul>
-&lt;h3 id="previous-role">[Previous Role]&lt;/h3>
-&lt;p>&lt;strong>Company Name&lt;/strong> | &lt;em>Dates&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>Key achievement or responsibility&lt;/li>
-&lt;li>Key achievement or responsibility&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="technical-skills">Technical Skills&lt;/h2>
-&lt;h3 id="programming-languages">Programming Languages&lt;/h3>
-&lt;ul>
-&lt;li>Python, JavaScript, Go, etc.&lt;/li>
-&lt;/ul>
-&lt;h3 id="aimachine-learning">AI/Machine Learning&lt;/h3>
-&lt;ul>
-&lt;li>TensorFlow, PyTorch, Scikit-learn, etc.&lt;/li>
-&lt;/ul>
-&lt;h3 id="cloud--infrastructure">Cloud &amp;amp; Infrastructure&lt;/h3>
-&lt;ul>
-&lt;li>AWS, GCP, Azure, Docker, Kubernetes, etc.&lt;/li>
-&lt;/ul>
-&lt;h3 id="tools--frameworks">Tools &amp;amp; Frameworks&lt;/h3>
-&lt;ul>
-&lt;li>Git, Linux, Hugo, etc.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="education">Education&lt;/h2>
-&lt;h3 id="degree-name">[Degree Name]&lt;/h3>
-&lt;p>&lt;strong>University Name&lt;/strong> | &lt;em>Graduation Year&lt;/em>&lt;/p></description></item><item><title>我的第一篇文章</title><link>https://leonardofhy.github.io/leonardo_blog/posts/hello-world/</link><pubDate>Sun, 04 May 2025 14:55:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/posts/hello-world/</guid><description>這是我的第一篇測試文章，用來確認部落格設定是否正常運作。</description></item></channel></rss>
+&lt;p>&lt;strong>In the meantime:&lt;/strong>&lt;/p></description></item><item><title>Building a Hugo Blog: Lessons Learned</title><link>https://leonardofhy.github.io/leonardo_blog/posts/building-hugo-blog-lessons-learned/</link><pubDate>Tue, 05 Aug 2025 16:30:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/posts/building-hugo-blog-lessons-learned/</guid><description>My experience setting up this Hugo blog with the PaperMod theme, including challenges faced, solutions found, and tips for other developers.</description></item><item><title>Top 5 Programming Tools That Changed My Workflow</title><link>https://leonardofhy.github.io/leonardo_blog/posts/top-programming-tools-workflow/</link><pubDate>Mon, 04 Aug 2025 10:15:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/posts/top-programming-tools-workflow/</guid><description>A curated list of development tools that significantly improved my productivity and coding experience, with practical tips on how to use them effectively.</description></item><item><title>Quick Note: Setting Up Python Virtual Environments</title><link>https://leonardofhy.github.io/leonardo_blog/posts/python-virtual-environments-quick-guide/</link><pubDate>Sun, 03 Aug 2025 09:30:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/posts/python-virtual-environments-quick-guide/</guid><description>A quick reference guide for creating and managing Python virtual environments using venv, including common commands and best practices.</description></item><item><title>我的第一篇文章</title><link>https://leonardofhy.github.io/leonardo_blog/posts/hello-world/</link><pubDate>Sun, 04 May 2025 14:55:00 +0800</pubDate><guid>https://leonardofhy.github.io/leonardo_blog/posts/hello-world/</guid><description>這是我的第一篇測試文章，用來確認部落格設定是否正常運作。</description></item></channel></rss>
