@@ -3,6 +3,10 @@ languageCode = 'en'
 title = "Leonardo's Blog"
 theme = "PaperMod"
 
+# Ensure proper URL generation for GitHub Pages
+canonifyURLs = true
+relativeURLs = false
+
 [params]
   author = "Leonardo Foo"
   defaultTheme = "auto"
@@ -24,15 +28,15 @@ theme = "PaperMod"
 
     [[params.profileMode.buttons]]
     name = "Resume"
-    url = "/resume"
+    url = "/resume/"
 
     [[params.profileMode.buttons]]
     name = "Projects"
-    url = "/projects"
+    url = "/projects/"
 
     [[params.profileMode.buttons]]
     name = "About"
-    url = "/about"
+    url = "/about/"
   
   [[params.socialIcons]]
   name = "github"
