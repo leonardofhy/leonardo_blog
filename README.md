@@ -6,6 +6,8 @@ A personal blog built with [Hugo](https://gohugo.io/) and hosted on GitHub Pages
 
 The blog is live at: **https://leonardofhy.github.io/leonardo_blog**
 
+> **Note**: If you experience redirects to an inaccessible domain, please use the direct GitHub Pages URL above. The repository owner may need to update the custom domain settings in the GitHub Pages configuration.
+
 The site is automatically deployed via GitHub Actions whenever changes are pushed to the `main` branch.
 
 ## 🛠️ Local Development Setup
@@ -175,3 +177,10 @@ git submodule update --init --recursive
 ```bash
 hugo server --bind 0.0.0.0 --baseURL http://localhost:1313
 ```
+
+### Site redirects to inaccessible domain?
+If the site redirects to a non-working custom domain:
+1. Go to your repository's **Settings** → **Pages**
+2. Under "Custom domain", remove any custom domain if it's not working
+3. Ensure "Source" is set to "Deploy from a branch" with branch `gh-pages`
+4. Wait a few minutes for changes to take effect
