@@ -178,7 +178,7 @@ git submodule update --init --recursive
 hugo server --bind 0.0.0.0 --baseURL http://localhost:1313
 ```
 
-**Site redirects to inaccessible domain?**
+### Site redirects to inaccessible domain?
 If the site redirects to a non-working custom domain:
 1. Go to your repository's **Settings** → **Pages**
 2. Under "Custom domain", remove any custom domain if it's not working
