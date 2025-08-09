@@ -1,0 +1,140 @@
+{{- /* Head custom content area start */ -}}
+{{- /* Interactive Features CSS */ -}}
+<style>
+/* Matrix Rain Effect */
+.matrix-rain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    pointer-events: none;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+.matrix-rain canvas {
+    width: 100%;
+    height: 100%;
+}
+
+/* Tech Quote Modal */
+.tech-quote-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--theme, #1a1a1a);
+    color: var(--primary, #00ff00);
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid var(--primary, #00ff00);
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+    z-index: 10000;
+    max-width: 80%;
+    display: none;
+    animation: glitch 0.3s ease-in-out;
+}
+
+.quote-text {
+    font-family: 'Courier New', monospace;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.quote-author {
+    font-style: italic;
+    text-align: right;
+    opacity: 0.8;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: var(--primary, #00ff00);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Easter Egg Notification */
+.easter-egg-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--theme, #1a1a1a);
+    color: var(--primary, #00ff00);
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--primary, #00ff00);
+    z-index: 10001;
+    display: none;
+    animation: slideIn 0.5s ease-out;
+}
+
+/* Animations */
+@keyframes glitch {
+    0% { transform: translate(-50%, -50%) scaleX(1); }
+    25% { transform: translate(-50%, -50%) scaleX(0.95) scaleY(1.05); }
+    50% { transform: translate(-50%, -50%) scaleX(1.05) scaleY(0.95); }
+    75% { transform: translate(-50%, -50%) scaleX(0.98) scaleY(1.02); }
+    100% { transform: translate(-50%, -50%) scaleX(1); }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Cursor Trail Effect */
+.cursor-trail {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: var(--primary, #00ff00);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9998;
+    opacity: 0.8;
+    animation: fade 1s linear forwards;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0.8;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+
+/* Theme compatibility */
+[data-theme="dark"] .tech-quote-modal {
+    background: #1a1a1a;
+    color: #00ff00;
+}
+
+[data-theme="light"] .tech-quote-modal {
+    background: #f0f0f0;
+    color: #008000;
+    box-shadow: 0 0 20px rgba(0, 128, 0, 0.3);
+}
+
+[data-theme="light"] .easter-egg-notification {
+    background: #f0f0f0;
+    color: #008000;
+}
+</style>
+{{- /* Head custom content area end */ -}}
