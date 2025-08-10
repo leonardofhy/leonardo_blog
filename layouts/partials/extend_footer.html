@@ -124,7 +124,7 @@ function performSearch(query) {
         }
         
         return match;
-    }).slice(0, 10); // Limit to 10 results
+    }).slice(0, SEARCH_RESULT_LIMIT); // Limit to SEARCH_RESULT_LIMIT results
 
     currentSearchResults = results;
     selectedSearchIndex = 0;
