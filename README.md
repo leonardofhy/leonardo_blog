@@ -1,6 +1,6 @@
 # Leonardo's Notes
 
-A personal blog built with [Hugo](https://gohugo.io/) and hosted on GitHub Pages, featuring notes and thoughts on AI and technology topics.
+Welcome to Leonardo's personal blog - a collection of thoughts, insights, and technical notes on AI, technology, and software development. Built with [Hugo](https://gohugo.io/) and automatically deployed to GitHub Pages.
 
 ## 🌐 Site Access
 
@@ -11,6 +11,8 @@ The blog is live at: **https://leonardofhy.github.io/leonardo_blog**
 The site is automatically deployed via GitHub Actions whenever changes are pushed to the `main` branch.
 
 ## 🛠️ Local Development Setup
+
+This blog uses Hugo with the PaperMod theme. Follow these steps to set up your local development environment.
 
 ### Prerequisites
 
@@ -77,13 +79,15 @@ The site will be available at `http://localhost:1313` with live reload enabled.
 
 ### Front Matter Fields
 
-- `title`: Post title
-- `date`: Publication date (ISO format)
+Each blog post requires these YAML front matter fields:
+
+- `title`: Post title (appears in browser tab and post header)
+- `date`: Publication date in ISO format with timezone (e.g., 2025-01-20T14:55:00+08:00)
 - `draft`: Set to `false` to publish, `true` to keep as draft
-- `tags`: Array of tags for categorization
-- `categories`: Array of categories
-- `author`: Author name
-- `summary`: Brief description (shown in post listings)
+- `tags`: Array of tags for content categorization and filtering
+- `categories`: Array of categories for content organization
+- `author`: Author name (use "Leonardo Foo" for consistency)
+- `summary`: Brief description shown in post listings and search results
 
 ### Writing Content
 
@@ -143,45 +147,75 @@ Site settings are configured in `hugo.toml`:
 - **theme**: Hugo theme being used
 - **params**: Theme-specific settings and social links
 
-## 🎨 Theme
+## 🎨 Theme & Features
 
-This site uses the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme, which provides:
+This blog uses the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme, which provides:
 
-- Clean, minimal design
-- Dark/light mode toggle
-- Mobile responsive layout
-- Fast loading times
-- SEO optimized
+- **Clean, minimal design** optimized for reading
+- **Dark/light mode toggle** for user preference
+- **Mobile responsive layout** that works on all devices  
+- **Fast loading times** with optimized performance
+- **SEO optimized** with proper meta tags and structured data
+- **Social sharing** integration
+- **Table of contents** generation for long posts
+- **Search functionality** across all content
 
-## 📝 Tips for Content Creation
+### Customizations
 
-1. **Preview drafts**: Use `hugo server --buildDrafts` to see draft posts
-2. **Organize content**: Use categories and tags consistently
-3. **SEO friendly**: Write descriptive summaries and titles
-4. **Images**: Keep images optimized for web (< 1MB recommended)
-5. **Markdown**: Use proper heading hierarchy (H2, H3, etc.)
-6. **Bilingual content**: The blog supports both English and Chinese content
+- Custom Google Analytics integration (in `layouts/partials/`)
+- Bilingual content support (English and Chinese)
+- Optimized for technical content with code highlighting
+
+## 📝 Content Creation Tips
+
+1. **Preview drafts**: Use `hugo server --buildDrafts` to see draft posts locally
+2. **Organize content**: Use categories and tags consistently for better navigation
+3. **SEO friendly**: Write descriptive summaries and titles for better search visibility
+4. **Image optimization**: Keep images under 1MB and use web-friendly formats (WebP, JPEG)
+5. **Markdown structure**: Use proper heading hierarchy (H1 → H2 → H3) for accessibility
+6. **Bilingual support**: The blog supports both English (English) and Chinese (中文) content
+7. **Code highlighting**: Use fenced code blocks with language specification for syntax highlighting
+8. **Internal linking**: Link between posts using relative URLs for better site cohesion
 
 ## 🔧 Troubleshooting
 
-**Theme not loading?**
+### Common Issues
+
+**Theme not loading or build fails?**
 ```bash
+# Update git submodules to get the latest theme
 git submodule update --init --recursive
 ```
 
-**Build fails?**
+**Hugo version compatibility issues?**
 - Ensure you're using Hugo Extended version v0.130.0 or higher
-- Check for syntax errors in front matter
-- Verify all required fields are present
+- The PaperMod theme requires Hugo Extended for proper functionality
+- Check version: `hugo version`
 
-**Local server not accessible?**
+**Build errors?**
+- Check for syntax errors in YAML front matter (common cause)
+- Verify all required front matter fields are present
+- Ensure proper markdown formatting
+
+**Local development server issues?**
 ```bash
+# If server is not accessible, try binding to all interfaces
 hugo server --bind 0.0.0.0 --baseURL http://localhost:1313
+
+# Clear Hugo cache if needed
+hugo --cleanDestinationDir
 ```
 
-### Site redirects to inaccessible domain?
+### Deployment Issues
+
+**Site redirects to inaccessible domain?**
 If the site redirects to a non-working custom domain:
 1. Go to your repository's **Settings** → **Pages**
-2. Under "Custom domain", remove any custom domain if it's not working
+2. Under "Custom domain", remove any custom domain if it's not working  
 3. Ensure "Source" is set to "Deploy from a branch" with branch `gh-pages`
-4. Wait a few minutes for changes to take effect
+4. Wait a few minutes for DNS changes to take effect
+
+**GitHub Actions deployment fails?**
+- Check the Actions tab for build logs
+- Ensure all required environment variables are set
+- Verify the deploy workflow has proper permissions
