@@ -14,7 +14,7 @@ The site is automatically deployed via GitHub Actions whenever changes are pushe
 
 ### Prerequisites
 
-1. **Install Hugo Extended** (required for this theme):
+1. **Install Hugo Extended** (v0.130.0 or higher required for PaperMod theme):
    
    **macOS:**
    ```bash
@@ -25,7 +25,7 @@ The site is automatically deployed via GitHub Actions whenever changes are pushe
    ```bash
    # Download the latest extended version
    # Visit https://github.com/gohugoio/hugo/releases to find the latest version.
-   # Replace <VERSION> with the latest version number (e.g., 0.124.1)
+   # Replace <VERSION> with the latest version number (v0.130.0 or higher required)
    wget https://github.com/gohugoio/hugo/releases/download/v<VERSION>/hugo_extended_<VERSION>_linux-amd64.tar.gz
    tar -xzf hugo_extended_<VERSION>_linux-amd64.tar.gz
    sudo mv hugo /usr/local/bin/
@@ -160,6 +160,7 @@ This site uses the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) th
 3. **SEO friendly**: Write descriptive summaries and titles
 4. **Images**: Keep images optimized for web (< 1MB recommended)
 5. **Markdown**: Use proper heading hierarchy (H2, H3, etc.)
+6. **Bilingual content**: The blog supports both English and Chinese content
 
 ## 🔧 Troubleshooting
 
@@ -169,7 +170,7 @@ git submodule update --init --recursive
 ```
 
 **Build fails?**
-- Ensure you're using Hugo Extended version
+- Ensure you're using Hugo Extended version v0.130.0 or higher
 - Check for syntax errors in front matter
 - Verify all required fields are present
 
