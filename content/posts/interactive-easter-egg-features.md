@@ -4,7 +4,7 @@ date: 2025-08-09T18:15:00+08:00
 draft: false
 tags: ["blog", "interactive", "javascript", "easter-egg", "fun"]
 categories: ["Updates"]
-author: "Leonardo Foo"
+author: "胡皓雍 (Leonardo Foo Haw Yang)"
 summary: "Discover the hidden interactive features I've added to this blog - including the classic Konami Code easter egg, Matrix rain animation, and random tech quotes!"
 ---
 

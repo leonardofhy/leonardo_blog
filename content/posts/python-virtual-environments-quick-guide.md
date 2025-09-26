@@ -4,7 +4,7 @@ date: 2025-08-03T09:30:00+08:00
 draft: false
 tags: ["python", "virtual-environments", "development", "quick-tip"]
 categories: ["Quick Tips"]
-author: "Leonardo Foo"
+author: "胡皓雍 (Leonardo Foo Haw Yang)"
 summary: "A quick reference guide for creating and managing Python virtual environments using venv, including common commands and best practices."
 ---
 

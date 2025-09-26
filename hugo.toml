@@ -1,6 +1,6 @@
 baseURL = 'https://leonardofhy.github.io/leonardo_blog'
 languageCode = 'en'
-title = "Leonardo's Blog"
+title = "胡皓雍 (Leonardo Foo Haw Yang)'s Blog"
 theme = "PaperMod"
 
 # Ensure proper URL generation for GitHub Pages
@@ -8,15 +8,15 @@ canonifyURLs = true
 relativeURLs = false
 
 [params]
-  author = "Leonardo Foo"
+  author = "胡皓雍 (Leonardo Foo Haw Yang)"
   defaultTheme = "auto"
   disableThemeToggle = false
   
   # Homepage profile section
   [params.profileMode]
     enabled = true
-    title = "Leonardo Foo"
-    subtitle = "AI Engineer & Technology Enthusiast"
+    title = "胡皓雍 (Leonardo Foo Haw Yang)"
+    subtitle = "Graduate Student in Graduate Institute of Communication Engineering, National Taiwan University"
     # imageUrl = "/images/profile.jpg"  # Add your profile image when available
     # imageTitle = "Leonardo Foo"
     # imageWidth = 150

@@ -4,7 +4,7 @@ date: 2025-08-10T12:35:00+08:00
 draft: false
 tags: ["blog", "interactive", "features", "javascript", "ux", "search", "ui"]
 categories: ["Updates", "Development"]
-author: "Leonardo Foo"
+author: "胡皓雍 (Leonardo Foo Haw Yang)"
 summary: "I've just added 5 powerful new interactive features to complement the existing easter eggs: real-time search, reading progress indicator, copy-to-clipboard code blocks, smooth theme transitions, and back-to-top button!"
 ---
 

@@ -4,7 +4,7 @@ date: 2025-08-04T10:15:00+08:00
 draft: false
 tags: ["productivity", "tools", "development", "workflow"]
 categories: ["Development Tools"]
-author: "Leonardo Foo"
+author: "胡皓雍 (Leonardo Foo Haw Yang)"
 summary: "A curated list of development tools that significantly improved my productivity and coding experience, with practical tips on how to use them effectively."
 ---
 

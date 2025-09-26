@@ -4,7 +4,7 @@ date: 2025-08-05T16:30:00+08:00
 draft: false
 tags: ["hugo", "blogging", "web-development", "github-pages"]
 categories: ["Web Development"]
-author: "Leonardo Foo"
+author: "胡皓雍 (Leonardo Foo Haw Yang)"
 summary: "My experience setting up this Hugo blog with the PaperMod theme, including challenges faced, solutions found, and tips for other developers."
 ---
 

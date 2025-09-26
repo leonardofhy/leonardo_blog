@@ -4,7 +4,7 @@ date: 2025-08-06T14:00:00+08:00
 draft: false
 tags: ["machine-learning", "ai", "tutorial", "beginner"]
 categories: ["AI & Machine Learning"]
-author: "Leonardo Foo"
+author: "胡皓雍 (Leonardo Foo Haw Yang)"
 summary: "An introductory guide to machine learning concepts, covering the basics of supervised learning, popular algorithms, and practical tips for beginners."
 ---
 

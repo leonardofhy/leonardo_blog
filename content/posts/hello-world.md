@@ -4,7 +4,7 @@ date: 2025-05-04T14:55:00+08:00
 draft: false
 tags: ["hugo", "setup", "blog"]
 categories: ["General"]
-author: "Leonardo Foo"
+author: "胡皓雍 (Leonardo Foo Haw Yang)"
 summary: "這是我的第一篇測試文章，用來確認部落格設定是否正常運作。"
 ---
 
