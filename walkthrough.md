@@ -13,7 +13,11 @@ I have successfully upgraded your blog with a premium look and new features.
 - **Projects Portfolio**: Created a dedicated `/projects` section to showcase your work, separate from the blog feed.
 - **Resume & About**: Updated these pages with a clean, professional layout.
 
-## 3. Verification
+## 3. Interactive Elements ✨
+- **Magic Dust Mouse Trail**: Added a colorful particle trail that follows the cursor on desktop devices.
+- **Mobile Optimized**: The effect is automatically disabled on touch devices to preserve performance.
+
+## 4. Verification
 - **Build Status**: The site builds successfully with `hugo --minify`.
 - **Content Structure**:
     - `content/projects/`: Contains your portfolio items.
