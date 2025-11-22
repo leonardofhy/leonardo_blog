@@ -37,6 +37,10 @@ relativeURLs = false
     [[params.profileMode.buttons]]
     name = "About"
     url = "/about/"
+
+    [[params.profileMode.buttons]]
+    name = "Search"
+    url = "/search/"
   
   [[params.socialIcons]]
   name = "github"
@@ -45,3 +49,15 @@ relativeURLs = false
   [[params.socialIcons]]
   name = "linkedin"
   url = "https://www.linkedin.com/in/leonardo-fhy/"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]

@@ -1,49 +1,39 @@
 ---
 title: "Resume"
-date: 2025-08-06T10:00:00+08:00
-draft: false
-hidemeta: true
-disableShare: true
-ShowReadingTime: false
-ShowBreadCrumbs: false
-ShowPostNavLinks: false
-ShowWordCount: false
+layout: "page"
+summary: "Leonardo Foo's Resume"
 ---
 
-## Coming Soon
+# Leonardo Foo
+**AI Engineer & Graduate Student**
+*Taipei, Taiwan* | [LinkedIn](https://www.linkedin.com/in/leonardo-fhy/) | [GitHub](https://github.com/leonardofhy)
 
-I'm currently preparing a comprehensive resume that will showcase:
+## Summary
+Graduate student in Communication Engineering at NTU with a focus on Artificial Intelligence and Machine Learning. Passionate about building intelligent systems and scalable web applications.
 
-### Professional Experience
-- Current and previous roles in AI and software engineering
-- Key achievements and contributions
-- Technologies and methodologies used
+## Education
+**National Taiwan University** | *M.S. in Communication Engineering*
+*Sep 2023 - Present*
+- Focus: Deep Learning, Computer Vision
 
-### Technical Skills
-- Programming languages and frameworks
-- AI/ML tools and platforms
-- Cloud and infrastructure technologies
+**National Taiwan University** | *B.S. in Electrical Engineering*
+*Sep 2019 - Jun 2023*
 
-### Education & Certifications
-- Academic background
-- Professional certifications
-- Continuous learning initiatives
+## Experience
+**AI Research Intern** | *Tech Company Inc.*
+*Jul 2024 - Sep 2024*
+- Developed computer vision models for defect detection.
+- Optimized inference speed by 30% using TensorRT.
 
-### Projects & Contributions
-- Notable projects and their impact
-- Open source contributions
-- Research and publications
+## Skills
+- **Languages**: Python, C++, JavaScript, Go
+- **AI/ML**: PyTorch, TensorFlow, OpenCV, Hugging Face
+- **Web**: Hugo, React, Node.js
+- **Tools**: Docker, Git, Linux, AWS
 
----
+## Projects
+**AI Blog Assistant**
+- Built an automated tool to generate and optimize blog content using LLMs.
 
-**In the meantime:**
-
-- Connect with me on [LinkedIn](https://www.linkedin.com/in/leonardo-fhy/) for my professional profile
-- Check out my [GitHub](https://github.com/leonardofhy) for code samples and projects
-- Browse my [blog posts](/posts) to see my technical expertise in action
-
-For immediate opportunities or collaborations, feel free to reach out via LinkedIn.
-
----
-
-*Page last updated: August 6, 2025*
+**Smart Home IoT System**
+- Designed a distributed IoT system for home automation using MQTT and Raspberry Pi.

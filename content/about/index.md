@@ -1,32 +1,19 @@
 ---
-title: "About"
-date: 2025-08-06T10:00:00+08:00
-draft: false
-hidemeta: true
-disableShare: true
-ShowReadingTime: false
-ShowBreadCrumbs: false
-ShowPostNavLinks: false
-ShowWordCount: false
+title: "About Me"
+layout: "page"
+summary: "About Leonardo Foo"
 ---
 
-## Coming Soon
+Hello! I'm **Leonardo Foo**, a graduate student and AI enthusiast based in Taipei.
 
-Hi! I'm Leonardo Foo, an AI Engineer and technology enthusiast.
+I have a passion for bridging the gap between complex AI research and practical, user-friendly applications. My journey started with electrical engineering, but I quickly fell in love with the infinite possibilities of software and machine learning.
 
-This page is currently under construction. I'm working on creating a comprehensive about section that will include:
+## What I Do
+- **Research**: I study advanced computer vision techniques at NTU.
+- **Development**: I build web apps and tools to automate my workflow.
+- **Writing**: I share my learnings and tech tips on this blog.
 
-- My background and professional journey
-- Current interests and focus areas
-- What you can expect from this blog
-- Ways to connect and collaborate
-
-In the meantime, feel free to:
-
-- Check out my [blog posts](/posts) for technical insights
-- Connect with me on [LinkedIn](https://www.linkedin.com/in/leonardo-fhy/)
-- Explore my projects on [GitHub](https://github.com/leonardofhy)
-
----
-
-*Page last updated: August 6, 2025*
+## Connect
+I'm always open to interesting conversations and collaborations.
+- **Email**: [leonardo@example.com](mailto:leonardo@example.com)
+- **Socials**: Find me on [LinkedIn](https://www.linkedin.com/in/leonardo-fhy/) or [GitHub](https://github.com/leonardofhy).
