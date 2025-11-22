@@ -17,7 +17,13 @@ I have successfully upgraded your blog with a premium look and new features.
 - **Magic Dust Mouse Trail**: Added a colorful particle trail that follows the cursor on desktop devices.
 - **Mobile Optimized**: The effect is automatically disabled on touch devices to preserve performance.
 
-## 4. Verification
+## 4. Bilingual Support 🌐
+- **English & Traditional Chinese**: Fully configured for dual-language support.
+- **Language Switcher**: Automatically appears in the menu when a translation is available.
+- **Content Management**: Simply add `.zh-tw.md` files for Chinese translations.
+- **Localized Menus**: Navigation menus are customized for each language (e.g., "Resume" vs "履歷").
+
+## 5. Verification
 - **Build Status**: The site builds successfully with `hugo --minify`.
 - **Content Structure**:
     - `content/projects/`: Contains your portfolio items.
